@@ -490,3 +490,12 @@ footer {
         width: 30%;
     }
 }
+
+/*media querys 1200px hasta */
+
+@media(min-width:1200px){
+    /*Inicio codigo button comprar*/
+    .buy_coint {
+        width: 18%;
+    }
+}
