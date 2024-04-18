@@ -29,7 +29,8 @@ body {
 }
 
 .logo {
-    width: 100px;
+    display: inline;
+    width: 110px;
 }
 
 #chk1 {
@@ -143,7 +144,7 @@ header .menu {
 }
 
 .buy_coint a {
-    font-size: 1em;
+    font-size: 1.2em;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -205,8 +206,15 @@ header .menu {
     text-shadow: 2px 4px 1px #010101;
     /* Sombra */
     padding-bottom: 10%;
+    font-size: 1.5em;
 }
 
+.text_info{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    font-size: 1.1em;
+}
 .info__dos {
     text-align: center;
     text-transform: uppercase;
@@ -215,6 +223,7 @@ header .menu {
     /* Sombra */
     padding-top: 15%;
     padding-bottom: 10%;
+    font-size: 1.5em;
 }
 
 .info__tres {
@@ -225,6 +234,7 @@ header .menu {
     /* Sombra */
     padding-top: 15%;
     padding-bottom: 10%;
+    font-size: 1.5em;
 }
 
 .info__cuatro {
@@ -235,6 +245,8 @@ header .menu {
     /* Sombra */
     padding-top: 15%;
     padding-bottom: 10%;
+    font-size: 1.5em;
+
 }
 
 /*Fin del codigo Info*/
@@ -257,6 +269,7 @@ header .menu {
     text-shadow: 2px 4px 1px #010101;
     /* Sombra */
     text-transform: uppercase;
+    font-size: 1.5em;
 }
 
 /*Imagen youtube mrbeast*/
@@ -377,7 +390,25 @@ footer {
     .persona_mrbeast {
         width: 80%;
     }
-
+    .info__uno{
+        font-size: 2em;
+    }
+    .text_info{
+        font-size: 1.3em;
+    }
+    .info__dos{
+        font-size: 2em;
+    }
+    .info__tres{
+        font-size: 2em;
+    }
+    .info__cuatro{
+        font-size: 2em;
+    }
+    
+    .title_tokenomic{
+        font-size: 2em;
+    }
     /*Imagen youtube mrbeast*/
     .youtube_img {
         width: 70%;
@@ -407,7 +438,12 @@ footer {
     .buy_coint {
         width: 30%;
     }
-
+    .buy_coint a{
+        font-size: 1.5em;
+    }
+.welcome{
+    font-size: 2em;
+}
     .persona_mrbeast {
         width: 70%;
     }
@@ -476,6 +512,10 @@ footer {
     .persona_mrbeast {
         width: 50%;
     }
+    .text_info{
+        padding: 0px 100px;
+        font-size: 1.3em;
+    }
     /*mrbeast chocolate*/
     .personauno{
         width: 60%;
@@ -494,17 +534,31 @@ footer {
 /*media querys 1200px hasta */
 
 @media(min-width:1200px){
+    .logo{
+        margin-left: 50px;
+    }
     /*Inicio codigo button comprar*/
     .buy_coint {
         width: 18%;
+    }
+    .text_info{
+        padding: 0px 200px;
+        font-size: 1.3em;
     }
 }
 
 /*media querys 1200px hasta */
 
 @media(min-width:1400px){
+    .logo{
+        margin-left: 120px;
+    }
     /*Inicio codigo button comprar*/
     .buy_coint {
         width: 16%;
+    }
+    .text_info{
+        padding: 0px 400px;
+        font-size: 1.5em;
     }
 }
